@@ -65,8 +65,9 @@ export default class New extends Command {
     cli.action.start('  🛠  Workspace');
     await TemplateScaffolding.from({
       remoteUrl:
-        'https://codeload.github.com/terra-money/terrain-core-template/zip/refs/heads/main',
-      subFolder: 'terrain-core-template-main',
+        // 'https://codeload.github.com/terra-money/terrain-core-template/zip/refs/heads/main',
+        'https://codeload.github.com/llllllluc/terrain-core-template/zip/refs/heads/interchain2',
+      subFolder: 'terrain-core-template-interchain2',
       localOptions: {
         folderUrl: appDir,
       },
